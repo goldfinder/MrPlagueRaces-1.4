@@ -52,6 +52,7 @@ namespace MrPlagueRaces.Common.Races
 		public virtual void UpdateLifeRegen(Player player) { }
 		public virtual void NaturalLifeRegen(Player player, ref float regen) { }
 		public virtual void PreUpdate(Player player) { }
+  		public virtual void PostUpdate(Player player) { }
 		public virtual void ProcessTriggers(Player player, TriggersSet triggersSet) { }
 		public virtual void ModifyHurt(Player player, ref Player.HurtModifiers modifiers) {}
 		public virtual void PostHurt(Player player, Player.HurtInfo info) { }
